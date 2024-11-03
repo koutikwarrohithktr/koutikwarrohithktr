@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal</title>
+    <title>Friendship Invitation</title>
     <style>
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0e4d7;
+            background-color: #e0f7fa;
             font-family: Arial, sans-serif;
         }
         .container {
@@ -21,30 +21,30 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #ff6f61;
+            color: #00796b;
         }
         button {
             padding: 10px 20px;
-            background-color: #ff6f61;
+            background-color: #00796b;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #ff3b2f;
+            background-color: #004d40;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>I Love You!</h1>
-        <p>Will you be my girlfriend?</p>
+        <h1>Let's Be Friends!</h1>
+        <p>Would you like to be my friend?</p>
         <button onclick="showMessage()">Yes</button>
     </div>
     <script>
         function showMessage() {
-            alert("You made me the happiest person in the world!");
+            alert("Yay! I'm so happy to be friends with you!");
         }
     </script>
 </body>
